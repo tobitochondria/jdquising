@@ -1,18 +1,28 @@
 import { personalInfo } from "../data/portfolioData";
+import profilePhoto from "../assets/images/my-photo.jpeg";
+import heroBg from "../assets/images/hero-banner.jpeg";
 
 export default function HeroBanner() {
   return (
     <section
       id="about"
       className="hero-banner d-flex align-items-center min-vh-100"
+      style={{
+        backgroundImage: `linear-gradient(135deg, rgba(255,255,255,0.93) 0%, rgba(234,242,234,0.92) 60%), url(${heroBg})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundAttachment: "fixed",
+      }}
     >
       <div className="container">
         <div className="row align-items-center g-5">
-          {/* Profile Image Placeholder */}
+          {/* Profile Photo */}
           <div className="col-lg-4 text-center">
-            <div className="profile-placeholder mx-auto">
-              <i className="bi bi-person-fill"></i>
-            </div>
+            <img
+              src={profilePhoto}
+              alt="Josiah David F. Quising"
+              className="profile-photo mx-auto d-block"
+            />
           </div>
 
           {/* Info */}

@@ -18,6 +18,7 @@ export default function Education() {
               subtitle={item.degree}
               dateRange={item.dateRange}
               items={item.details}
+              logo={item.logo}
             />
           ))}
         </div>

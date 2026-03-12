@@ -1,7 +1,14 @@
-export default function WrittenWorkItem({ outlet, outletDescription, articles }) {
+export default function WrittenWorkItem({ outlet, outletDescription, articles, logo }) {
   return (
     <div className="written-work-item card border-0 shadow-sm mb-3">
       <div className="card-body">
+        {logo && (
+          <img
+            src={logo}
+            alt={`${outlet} logo`}
+            className="outlet-logo mb-2 d-block"
+          />
+        )}
         <h6 className="fw-bold mb-0">{outlet}</h6>
         {outletDescription && (
           <p className="text-muted small mb-2 fst-italic">

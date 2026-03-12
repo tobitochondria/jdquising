@@ -31,6 +31,15 @@ export default function Footer() {
                 <i className="bi bi-envelope-fill"></i>
                 {personalInfo.email}
               </a>
+              <a
+                href="https://www.linkedin.com/in/josiah-david-quising-b94899122/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white-50 text-decoration-none d-inline-flex align-items-center gap-2 footer-link"
+              >
+                <i className="bi bi-linkedin"></i>
+                LinkedIn
+              </a>
             </div>
           </div>
         </div>

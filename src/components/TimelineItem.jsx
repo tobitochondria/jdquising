@@ -5,13 +5,23 @@ export default function TimelineItem({
   items,
   location,
   badge,
+  logo,
 }) {
   return (
     <div className="timeline-item">
       <div className="timeline-dot"></div>
       <div className="timeline-content card border-0 shadow-sm">
         <div className="card-body">
-          <h6 className="fw-semibold mb-1">{title}</h6>
+          <div className="d-flex align-items-center gap-3 mb-1">
+            {logo && (
+              <img
+                src={logo}
+                alt={`${title} logo`}
+                className="institution-logo flex-shrink-0"
+              />
+            )}
+            <h6 className="fw-semibold mb-0">{title}</h6>
+          </div>
           {subtitle && (
             <p className="text-muted small mb-1 fst-italic">{subtitle}</p>
           )}

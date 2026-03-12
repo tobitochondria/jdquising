@@ -1,3 +1,12 @@
+import bulatlat from "../assets/images/bulatlat-logo.png";
+import dailyGuardian from "../assets/images/daily-guardian-logo.png";
+import rappler from "../assets/images/rappler-logo.png";
+import intlLawBlog from "../assets/images/intl-law-blog-logo.webp";
+import newBloom from "../assets/images/new-bloom-logo.webp";
+import panayToday from "../assets/images/panay-today-logo.png";
+import feuLogo from "../assets/images/feu-il-logo.jpg";
+import gccLogo from "../assets/images/gcc-logo.png";
+
 // =============================================================================
 // Portfolio Data — Josiah David F. Quising, J.D.
 // All CV content centralized for easy updates without touching component logic.
@@ -241,12 +250,14 @@ export const education = [
     degree: "Law (J.D.)",
     dateRange: "2015 – 2019",
     details: ["Editor-in-Chief, Far Eastern Law Review"],
+    logo: feuLogo,
   },
   {
     institution: "Grace Christian College",
     degree: "B.A. Business Administration, Major in Operations Management",
     dateRange: "2011 – 2015",
     details: ["Cum Laude; 3.55 GPA; consistent merit scholar"],
+    logo: gccLogo,
   },
 ];
 
@@ -491,6 +502,7 @@ export const opinionPieces = [
     outlet: "Bulatlat",
     outletDescription:
       "Multi-awarded Manila-based alternative online news source for human rights journalism",
+    logo: bulatlat,
     articles: [
       {
         title:
@@ -522,6 +534,7 @@ export const opinionPieces = [
   {
     outlet: "Rappler",
     outletDescription: "Multi-awarded Manila-based online news network",
+    logo: rappler,
     articles: [
       {
         title:
@@ -534,11 +547,12 @@ export const opinionPieces = [
     outlet: "International Law Blog",
     outletDescription:
       "London-based online peer-reviewed platform for legal commentaries",
+    logo: intlLawBlog,
     articles: [
       {
         title:
           "Indigenous Peoples and the Rights of Nature: A New Paradigm for Environmental Justice in the Philippines",
-        url: "https://www.rappler.com/moveph/project-gunita-keeping-stories-martial-law-victims-alive/",
+        url: "https://internationallaw.blog/2023/06/12/indigenous-peoples-and-the-rights-of-nature-a-new-paradigm-for-environmental-justice-in-the-philippines/",
       },
     ],
   },
@@ -546,6 +560,7 @@ export const opinionPieces = [
     outlet: "New Bloom Magazine",
     outletDescription:
       "Taiwan-based independent, alternative media outfit",
+    logo: newBloom,
     articles: [
       {
         title: "The Rodrigo Roa Duterte Case: An Explainer",
@@ -557,6 +572,7 @@ export const opinionPieces = [
     outlet: "Daily Guardian",
     outletDescription:
       "Iloilo-based publishing firm and media outfit",
+    logo: dailyGuardian,
     articles: [
       {
         title: "On Data Privacy and Unauthorized Photography",
@@ -577,6 +593,7 @@ export const opinionPieces = [
     outlet: "Panay Today",
     outletDescription:
       "Iloilo-based regional independent, alternative media outfit",
+    logo: panayToday,
     articles: [
       {
         title:
