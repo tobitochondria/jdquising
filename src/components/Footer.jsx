@@ -18,13 +18,6 @@ export default function Footer() {
           <div className="col-md-6 text-md-end">
             <div className="d-flex flex-column gap-2 align-items-md-end">
               <a
-                href={`tel:${personalInfo.phone}`}
-                className="text-white-50 text-decoration-none d-inline-flex align-items-center gap-2 footer-link"
-              >
-                <i className="bi bi-telephone-fill"></i>
-                {personalInfo.phone}
-              </a>
-              <a
                 href={`mailto:${personalInfo.email}`}
                 className="text-white-50 text-decoration-none d-inline-flex align-items-center gap-2 footer-link"
               >

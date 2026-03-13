@@ -37,13 +37,6 @@ export default function HeroBanner() {
 
             <div className="d-flex flex-wrap gap-3 mb-4">
               <a
-                href={`tel:${personalInfo.phone}`}
-                className="d-inline-flex align-items-center gap-2 text-decoration-none text-body"
-              >
-                <i className="bi bi-telephone-fill text-accent"></i>
-                {personalInfo.phone}
-              </a>
-              <a
                 href={`mailto:${personalInfo.email}`}
                 className="d-inline-flex align-items-center gap-2 text-decoration-none text-body"
               >

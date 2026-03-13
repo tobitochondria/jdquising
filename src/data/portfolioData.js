@@ -15,10 +15,9 @@ import gccLogo from "../assets/images/gcc-logo.png";
 export const personalInfo = {
   name: "Josiah David F. Quising",
   suffix: "J.D.",
-  phone: "+639171571918",
-  email: "jquising@feu.edu.ph",
+  email: "jquising@gmail.com",
   summary:
-    "Josiah David Quising is a lawyer, a lecturer, and a human rights advocate. He is one of the recognized exemplary passers of the February 2022 Bar Examinations with a grade of 85.87%. He has been spoken on numerous academic conferences and public forums as a panelist and has been invited to several interviews and talks on human rights, environmental law, and Philippine Martial Law history.",
+    "Josiah David Quising is a lawyer, professor, and human advocate engaged in legal and advocacy work with civil society organizations. He is a co-founder of Project Gunita, an initiative that helps preserve and promote historical memory, especially in relation to the Martial Law era in the Philippines. He is a Fellow of the Young Budget Leaders Program of the People's Budget Coalition and the Just Energy Transition Fellowship of the Alternative Law Groups.",
 };
 
 // -----------------------------------------------------------------------------
@@ -215,7 +214,7 @@ export const publishedWorks = [
       "Beyond OPOSA: Courts reinforcing intergenerational equity as customary international law.",
     citation:
       "Eur Law J. 2023; 29:422-444. doi:10.1111/eulj.12489",
-    url: null,
+    url: "https://www.researchgate.net/publication/379059196_Beyond_OPOSA_Courts_reinforcing_intergenerational_equity_as_customary_international_law",
   },
   {
     journal: "The Far Eastern Law Review (FELR)",
