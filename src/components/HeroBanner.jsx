@@ -59,6 +59,16 @@ export default function HeroBanner() {
                 <i className="bi bi-arrow-down me-2"></i>
                 View Portfolio
               </a>
+              {personalInfo.cv && (
+                <a
+                  href={personalInfo.cv}
+                  download="Josiah_David_Quising_CV.pdf"
+                  className="btn btn-outline-accent btn-lg px-4"
+                >
+                  <i className="bi bi-download me-2"></i>
+                  Download CV
+                </a>
+              )}
             </div>
           </div>
         </div>

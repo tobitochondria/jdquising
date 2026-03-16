@@ -3,25 +3,70 @@ import TimelineItem from "../components/TimelineItem";
 import { speakingEngagements } from "../data/portfolioData";
 import useInView from "../hooks/useInView";
 
+function groupByYear(entries) {
+  const groups = {};
+  entries.forEach((entry) => {
+    const match = entry.date.match(/(\d{4})/);
+    const year = match ? match[1] : "Other";
+    if (!groups[year]) groups[year] = [];
+    groups[year].push(entry);
+  });
+  return Object.entries(groups).sort((a, b) => b[0].localeCompare(a[0]));
+}
+
 export default function SpeakingEngagements() {
   const [ref, isVisible] = useInView();
+  const grouped = groupByYear(speakingEngagements);
 
   return (
     <section id="speaking" className="section-padding" ref={ref}>
       <div className={`container fade-in-up ${isVisible ? "visible" : ""}`}>
         <SectionTitle title="Speaking Engagements" icon="bi-mic" />
-        <div className="timeline">
-          {speakingEngagements.map((s, i) => (
-            <TimelineItem
-              key={i}
-              title={s.title}
-              subtitle={s.organization}
-              dateRange={s.date}
-              location={s.location}
-              badge={s.role}
-              items={[s.topic]}
-            />
-          ))}
+        <div className="accordion" id="speakingAccordion">
+          {grouped.map(([year, entries], idx) => {
+            const collapseId = `speaking-collapse-${year}`;
+            const headingId = `speaking-heading-${year}`;
+            const isOpen = idx === 0;
+            return (
+              <div className="accordion-item border-0 mb-2 shadow-sm rounded" key={year}>
+                <h2 className="accordion-header" id={headingId}>
+                  <button
+                    className={`accordion-button rounded ${isOpen ? "" : "collapsed"}`}
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target={`#${collapseId}`}
+                    aria-expanded={isOpen ? "true" : "false"}
+                    aria-controls={collapseId}
+                  >
+                    <span className="fw-semibold">{year}</span>
+                    <span className="ms-2 badge bg-accent text-white">{entries.length}</span>
+                  </button>
+                </h2>
+                <div
+                  id={collapseId}
+                  className={`accordion-collapse collapse ${isOpen ? "show" : ""}`}
+                  aria-labelledby={headingId}
+                  data-bs-parent="#speakingAccordion"
+                >
+                  <div className="accordion-body pt-2">
+                    <div className="timeline">
+                      {entries.map((s, i) => (
+                        <TimelineItem
+                          key={i}
+                          title={s.title}
+                          subtitle={s.organization}
+                          dateRange={s.date}
+                          location={s.location}
+                          badge={s.role}
+                          items={[s.topic]}
+                        />
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            );
+          })}
         </div>
       </div>
     </section>

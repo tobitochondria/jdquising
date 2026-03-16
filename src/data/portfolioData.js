@@ -6,6 +6,7 @@ import newBloom from "../assets/images/new-bloom-logo.webp";
 import panayToday from "../assets/images/panay-today-logo.png";
 import feuLogo from "../assets/images/feu-il-logo.jpg";
 import gccLogo from "../assets/images/gcc-logo.png";
+import cvFile from "../assets/files/jdquising_cv.pdf";
 
 // =============================================================================
 // Portfolio Data — Josiah David F. Quising, J.D.
@@ -16,6 +17,7 @@ export const personalInfo = {
   name: "Josiah David F. Quising",
   suffix: "J.D.",
   email: "jquising@gmail.com",
+  cv: cvFile,
   summary:
     "Josiah David Quising is a lawyer, professor, and human advocate engaged in legal and advocacy work with civil society organizations. He is a co-founder of Project Gunita, an initiative that helps preserve and promote historical memory, especially in relation to the Martial Law era in the Philippines. He is a Fellow of the Young Budget Leaders Program of the People's Budget Coalition and the Just Energy Transition Fellowship of the Alternative Law Groups.",
 };
@@ -35,8 +37,8 @@ export const experienceCategories = [
         dateRange: "July 2025 – February 2026",
         role: "Program Manager",
         descriptions: [
-          "Leads the planning, implementation, monitoring, and evaluation of regional and national human rights projects aligned with AFAD's mission.",
-          "Oversees capacity-building initiatives, supervises project officers across Asia, manages project budgets, and ensures timely, high-quality reporting.",
+          "Led the planning, implementation, monitoring, and evaluation of regional and national human rights projects aligned with AFAD's mission.",
+          "Oversaw capacity-building initiatives, supervised project officers across Asia, managed project budgets, and ensured timely, high-quality reporting.",
         ],
       },
       {
@@ -44,7 +46,7 @@ export const experienceCategories = [
         dateRange: "November 2024 – present",
         role: "Legal Consultant",
         descriptions: [
-          "Drafts pleadings, conducts legal research on labor rights and violations, represents FFW in cases concerning labor rights.",
+          "Represents workers in labor cases, conducts legal research, drafts policy recommendations, conducts presentations and lectures on labor law",
         ],
       },
       {
@@ -52,9 +54,9 @@ export const experienceCategories = [
         dateRange: "March 2023 – May 2025",
         role: "Campaign Lawyer",
         descriptions: [
-          "Lead legal campaign to push the recognition of the Rights of Nature in the Philippine legal system, drafting of proposed bills such as Prevention of Ecocide, Environmental Defenders Protection, and other parallel bills and local ordinances.",
-          "Provides support and counsel for anti-mining campaign, indigenous people's rights, and environmental law advocacy.",
-          "Includes policy lobbying, political mapping and communications, and engagement with different national government agencies.",
+          "Led legal campaign to push the recognition of the Rights of Nature in the Philippine legal system, drafting of proposed bills such as Prevention of Ecocide, Environmental Defenders Protection, and other parallel bills and local ordinances.",
+          "Provided support and counsel for anti-mining campaign, indigenous people's rights, and environmental law advocacy.",
+          "Included policy lobbying, political mapping and communications, and engagement with different national government agencies.",
         ],
       },
       {
@@ -266,6 +268,12 @@ export const education = [
 
 export const academicAwards = [
   {
+    organization: "Supreme Court of the Philippines",
+    items: [
+      "2021/22 Bar Examinations - Recognized Exemplary Passer (85.87%)",
+    ],
+  },
+  {
     organization: "Foundation for Liberty & Prosperity (FLP)",
     items: [
       "First Place Winner of the AY 2018-2019 Dissertation Writing Contest (Liberty and Prosperity for Future Generations: Intergenerational Equity as Customary International Law)",
@@ -289,6 +297,15 @@ export const academicAwards = [
 
 export const academicConferences = [
   {
+    title: "Resisting Autocratization in Polarized Societies",
+    organization: "International Political Science Association (2025 World Congress)",
+    role: "Panelist",
+    topic:
+      "The Cost of Clean Energy: Human and Environmental Rights in the Philippines' Renewable Energy Transition",
+    location: "Coex Convention Center, Seoul, South Korea",
+    date: "12-16 July 2025",
+  },
+  {
     title: "Changes and (Dis)Continuities",
     organization: "Philippine Political Science Association",
     role: "Panelist",
@@ -296,6 +313,14 @@ export const academicConferences = [
       "Rights, Rules, and Renewables: Exploring a Just Energy Transition Framework in Local Government",
     location: "Newtown Plaza Convention Center, Baguio City, Philippines",
     date: "23-24 May 2025",
+  },
+  {
+    title: "13th Asia-Pacific Regional Conference",
+    organization: "International Society for Third-Sector Research",
+    role: "Panelist",
+    topic: "Indigenous Peoples and the Rights of Nature",
+    location: "UP-Cebu College of Social Sciences",
+    date: "23-25 April 2025",
   },
   {
     title: "2nd National People's Science Summit",
@@ -426,6 +451,59 @@ export const fellowships = [
 export const speakingEngagements = [
   {
     title:
+      "Memory and Resistance: Teaching Martial Law History and Human Rights Amidst Impunity and Disinformation",
+    organization:
+      "Saint Louis University - Political Science Academic Society",
+    role: "Resource Speaker",
+    topic: "Academic Discussion on the Enforced Disappearances Act",
+    location: "Baguio City",
+    date: "14 October 2025",
+  },
+  {
+    title: "AnchorED: Martial Flawed",
+    organization:
+      "UP Diliman National College of Public Administration and Governance",
+    role: "Resource Speaker",
+    topic: "Martial Law History Parallelism to Current Issues",
+    location: "UP Diliman, Quezon City",
+    date: "29 September 2025",
+  },
+  {
+    title:
+      "Balitang Pasahero: Countering Historical Distortion in the Age of Fake News and Disinformation",
+    organization: "FEU Alabang Parliamentary Society",
+    role: "Resource Speaker",
+    topic: "Countering Historical Distortion in Martial Law History",
+    location: "FEU Alabang",
+    date: "25 September 2025",
+  },
+  {
+    title: "All Union Forum on Legal Briefs of Rights Violations",
+    organization: "Federation of Free Workers",
+    role: "Resource Speaker",
+    topic:
+      "Labor Rights and the Proposed Writ of Manggagawa, Occupational Safety and Health Center (OSHC)",
+    location: "Quezon City",
+    date: "6 August 2025",
+  },
+  {
+    title: "Unmasking the Truth: Martial Law under Marcos",
+    organization: "FEU-NRMF School of Nursing",
+    role: "Resource Speaker",
+    topic: "Martial Law History",
+    location: "via Zoom",
+    date: "9 May 2025",
+  },
+  {
+    title: "EmpowerED FSTval",
+    organization: "UP Diliman University Freshie Council",
+    role: "Resource Speaker",
+    topic: "Remembering Martial Law",
+    location: "UP Diliman, Quezon City",
+    date: "7 March 2025",
+  },
+  {
+    title:
       "DAPAT TAMA: Igniting Conversation on Perspectives about Substance Abuse Towards an Effective Prevention",
     organization:
       "Far Eastern University Drug Abuse Prevention Core Group",
@@ -504,9 +582,40 @@ export const opinionPieces = [
     logo: bulatlat,
     articles: [
       {
+        title: "Student rights as lip service",
+        url: "https://www.bulatlat.com/2025/11/24/student-rights-as-lip-service/",
+      },
+      {
+        title:
+          "Western Visayas groups criticize tax hikes, new transport routes",
+        url: "https://www.bulatlat.com/2025/09/10/western-visayas-groups-criticize-tax-hikes-new-transport-routes/",
+      },
+      {
+        title:
+          "Agusan 6 lawyers oppose IP detainee's transfer to military camp",
+        url: "https://www.bulatlat.com/2025/09/10/agusan-6-lawyers-oppose-ip-detainees-transfer-to-military-camp/",
+      },
+      {
+        title: "When justice is missing, impunity surfaces",
+        url: "https://www.bulatlat.com/2025/08/30/when-justice-is-missing-impunity-surfaces/",
+      },
+      {
+        title: "ICC Warrant of Arrest in Tagalog",
+        url: "https://www.bulatlat.com/2025/08/20/icc-warrant-of-arrest-in-tagalog/",
+      },
+      {
         title:
           "Ten years of the Philippines' National Indigenous Peoples Day: Who defends the defenders?",
         url: "https://www.bulatlat.com/2025/08/08/ten-years-of-the-philippines-national-indigenous-peoples-day-who-defends-the-defenders/",
+      },
+      {
+        title:
+          "Revolutionary in more ways than one: The progressive principles of the Kartilya ng Katipunan",
+        url: "https://www.bulatlat.com/2025/07/08/revolutionary-in-more-ways-than-one-the-progressive-principles-of-the-kartilya-ng-katipunan/",
+      },
+      {
+        title: "Outdated labor policies in app-based employment",
+        url: "https://www.bulatlat.com/2025/06/17/outdated-labor-policies-in-app-based-employment/",
       },
       {
         title:
@@ -517,6 +626,11 @@ export const opinionPieces = [
         title:
           "Are protected areas really protected? : Gaps in reclamation policies surrounding Las Piñas-Parañaque Wetland Park",
         url: "https://www.bulatlat.com/2025/05/06/are-protected-areas-really-protected-gaps-in-reclamation-policies-surrounding-las-pinas-paranaque-wetland-park/",
+      },
+      {
+        title:
+          "A child of impunity: Explaining the disqualification case against Duterte Youth",
+        url: "https://www.bulatlat.com/2025/05/31/a-child-of-impunity-explaining-the-disqualification-case-against-duterte-youth/",
       },
       {
         title:
@@ -594,6 +708,15 @@ export const opinionPieces = [
       "Iloilo-based regional independent, alternative media outfit",
     logo: panayToday,
     articles: [
+      {
+        title: "Red tagging should have no place in universities.",
+        url: "https://panaytoday.net/red-tagging-should-have-no-place-in-universities/",
+      },
+      {
+        title:
+          "More Than Just Shoes: Defending Student Rights and Expression of WVSU Students",
+        url: "https://panaytoday.net/more-than-just-shoes-defending-student-rights-and-expression-of-wvsu-students/",
+      },
       {
         title:
           '"Bakit sa ICC? Bakit hindi dito sa Pilipinas?": Paglilinaw sa Batas Internasyonal Tungkol sa Kaso ni Duterte',
