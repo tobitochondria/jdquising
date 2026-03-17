@@ -182,7 +182,8 @@
 .award-card,
 .fellowship-card,
 .written-work-item,
-.working-paper-card {
+.working-paper-card,
+.media-card {
   border-left: 3px solid transparent;
   transition: transform var(--transition), box-shadow var(--transition),
     border-color var(--transition);
@@ -193,7 +194,8 @@
 .award-card:hover,
 .fellowship-card:hover,
 .written-work-item:hover,
-.working-paper-card:hover {
+.working-paper-card:hover,
+.media-card:hover {
   transform: translateY(-4px);
   box-shadow: var(--shadow-md);
   border-left-color: var(--accent);

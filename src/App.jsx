@@ -12,6 +12,7 @@ import ShortCourses from "./sections/ShortCourses";
 import Fellowships from "./sections/Fellowships";
 import SpeakingEngagements from "./sections/SpeakingEngagements";
 import OtherWrittenWorks from "./sections/OtherWrittenWorks";
+import MediaAppearances from "./sections/MediaAppearances";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
       <Fellowships />
       <SpeakingEngagements />
       <OtherWrittenWorks />
+      <MediaAppearances />
       <Footer />
       <BackToTop />
     </>

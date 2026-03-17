@@ -756,6 +756,118 @@ export const workingPapers = [
 ];
 
 // -----------------------------------------------------------------------------
+// Media Appearances and Interviews
+// -----------------------------------------------------------------------------
+
+export const mediaAppearances = {
+  // Radio and news report interviews
+  interviews: [
+    {
+      outlet: "Bombo Radyo Iloilo",
+      title:
+        "Citizen Rights Watch Network ginkwestyon ang paghatag sang West Visayas State University sang titulo nga Doctor of Laws, honoris causa kay First Lady Atty. Liza Araneta Marcos",
+      date: "14 June 2024",
+      url: "https://iloilo.bomboradyo.com/citizen-rights-watch-network-ginkwestyon-ang-paghatag-sang-west-visayas-state-university-sang-titulo-nga-doctor-of-laws-honoris-causa-kay-first-lady-atty-liza-araneta-marcos/",
+    },
+    {
+      outlet: "Bombo Radyo Iloilo",
+      title:
+        "Legal Education Board nanindugan nga deserving si First Lady / Atty. Liza Araneta Marcos sang honoris causa Doctor of Laws degree",
+      date: "2024",
+      url: "https://iloilo.bomboradyo.com/legal-education-board-nanindugan-nga-deserving-si-first-lady-atty-liza-araneta-marcos-sang-honoris-causa-doctor-of-laws-degree/",
+    },
+    {
+      outlet: "DZUP",
+      title: "Diktaduryong Marcos: Ang Katotohanan ng Batas Militar",
+      date: "23 September 2024",
+      url: "https://www.youtube.com/watch?v=vEPJGCYjlTM",
+    },
+    {
+      outlet: "Bombo Radyo Dagupan",
+      title:
+        "Paggunita ng Ninoy Aquino Day, paalala sa papel ng mamamayan sa pagtataguyod ng demokrasya",
+      date: "18 August 2025",
+      url: "https://dagupan.bomboradyo.com/paggunita-ng-ninoy-aquino-day-paalala-sa-papel-ng-mamamayan-sa-pagtataguyod-ng-demokrasya/",
+    },
+    {
+      outlet: "Bombo Radyo Iloilo",
+      title:
+        "Wala sang kinamatarong ang isa ka estado nga mag-aresto sang isa ka lider sang lain nga pungsod \u2013 Atty. Josiah David Quising",
+      date: "6 January 2026",
+      url: "https://iloilo.bomboradyo.com/wala-sang-kinamatarong-ang-isa-ka-estado-nga-mag-aresto-sang-isa-ka-lider-sang-lain-nga-pungsod-atty-josiah-david-quising/",
+      reelUrl: "https://www.facebook.com/share/v/18UUnm1xpJ/",
+    },
+  ],
+  // TV, YouTube, and social video appearances
+  broadcastVideos: [
+    {
+      outlet: "ABS-CBN News",
+      title: "Project Gunita seeks to preserve PH's Martial Law history",
+      date: "21 September 2022",
+      url: "https://www.abs-cbn.com/video/news/09/21/22/project-gunita-seeks-to-preserve-phs-martial-law-history",
+    },
+    {
+      outlet: "ABS-CBN News (YouTube)",
+      title: "Project Gunita Feature Segment",
+      date: "21 September 2022",
+      url: "https://www.youtube.com/watch?v=atZ9r-iqcE0",
+    },
+    {
+      outlet: "Bombo Radyo Iloilo (Facebook)",
+      title: "Citizens Rights Watch Network Interview Clip",
+      date: "18 August 2025",
+      url: "https://www.facebook.com/watch/?v=794683802979072",
+    },
+    {
+      outlet: "Bombo Radyo Dagupan",
+      title: "Commemoration of 40th Anniversary of the People Power Revolution",
+      date: "20 February 2026",
+      url: "https://www.facebook.com/reel/25870349852606797",
+    },
+  ],
+  // News articles quoting or profiling
+  newsFeatures: [
+    {
+      outlet: "PhilSTAR Life",
+      title: "Holding on to history's pages with Project Gunita",
+      date: "22 September 2023",
+      url: "https://philstarlife.com/geeky/160336-project-gunita-educating-people-martial-law",
+    },
+    {
+      outlet: "ABS-CBN News",
+      title: "Youth vow to preserve Martial Law truth for aging survivors",
+      date: "21 September 2022",
+      url: "https://www.abs-cbn.com/spotlight/09/21/22/youth-vow-to-preserve-martial-law-truth-for-aging-survivors",
+    },
+    {
+      outlet: "Sveriges Radio",
+      title:
+        "Han greps f\u00f6r 50 \u00e5r sedan under Marcos skr\u00e4ckv\u00e4lde - nu styr sonen Bongbong - Studio Ett",
+      date: "22 September 2022",
+      url: "https://www.sverigesradio.se/artikel/han-greps-for-50-ar-sedan-under-marcos-skrackvalde-nu-styr-sonen-bongbong",
+    },
+    {
+      outlet: "Rappler",
+      title: "Young generations continue fight to protect Martial Law memories",
+      date: "21 September 2022",
+      url: "https://www.rappler.com/newsbreak/in-depth/young-generations-continue-fight-protect-martial-law-memories-declaration-anniversary-2022/",
+    },
+    {
+      outlet: "Rappler",
+      title: "Project Gunita: Keeping the stories of Martial Law victims alive",
+      date: "29 August 2022",
+      url: "https://www.rappler.com/moveph/project-gunita-keeping-stories-martial-law-victims-alive/",
+    },
+    {
+      outlet: "Panay News",
+      title: "On First Lady's honorary degree: WVSU College of Law complied with memo circular \u2013 LEB",
+      date: "2024",
+      url: "https://www.panaynews.net/on-first-ladys-honorary-degree-wvsu-college-of-law-complied-with-memo-circular-leb/",
+    },
+  ],
+};
+
+// -----------------------------------------------------------------------------
 // Navigation links (used by Navbar)
 // -----------------------------------------------------------------------------
 
@@ -770,4 +882,5 @@ export const navLinks = [
   { href: "#fellowships", label: "Fellowships" },
   { href: "#speaking", label: "Speaking" },
   { href: "#writings", label: "Writings" },
+  { href: "#media", label: "Media" },
 ];
