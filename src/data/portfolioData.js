@@ -450,6 +450,22 @@ export const fellowships = [
 
 export const speakingEngagements = [
   {
+    title: "Two-Day Training on Basic Workers' Rights for Digital Platform Workers",
+    organization: "Federation of Free Workers (FFW) / Danish Trade Union Development Agency",
+    role: "Resource Person",
+    topic: "Basic Workers' Rights for Digital Platform Workers",
+    location: "Occupational Safety and Health Center (OSHC), North Avenue, Quezon City",
+    date: "15-16 March 2026",
+  },
+  {
+    title: "Pakighimamat: An Educational Discussion - Power in Collective Action",
+    organization: "Polikratos, Cebu Normal University - Main Campus",
+    role: "Resource Speaker",
+    topic: "Power in Collective Action and Social Movements in Celebration of the EDSA People Power Revolution Anniversary",
+    location: "via Zoom",
+    date: "21 February 2026",
+  },
+  {
     title:
       "Memory and Resistance: Teaching Martial Law History and Human Rights Amidst Impunity and Disinformation",
     organization:
@@ -481,9 +497,8 @@ export const speakingEngagements = [
     title: "All Union Forum on Legal Briefs of Rights Violations",
     organization: "Federation of Free Workers",
     role: "Resource Speaker",
-    topic:
-      "Labor Rights and the Proposed Writ of Manggagawa, Occupational Safety and Health Center (OSHC)",
-    location: "Quezon City",
+    topic: "Labor Rights and the Proposed Writ of Manggagawa",
+    location: "Occupational Safety and Health Center (OSHC), Quezon City",
     date: "6 August 2025",
   },
   {
